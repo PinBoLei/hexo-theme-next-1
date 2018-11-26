@@ -302,7 +302,7 @@ post_meta:
 symbols_count_time:
   separated_meta: true
   item_text_post: true
-  item_text_total: false
+  item_text_total: true
   awl: 4
   wpm: 275
 
@@ -375,7 +375,7 @@ custom_logo:
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 # Enable "cheers" for archive page.
 cheers_enabled: true
@@ -682,7 +682,7 @@ firestore:
 # Show Views/Visitors of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
@@ -855,7 +855,7 @@ pace_theme: pace-theme-minimal
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # display on mobile or not
   color: '0,0,255' # RGB values, use ',' to separate
   opacity: 0.5 # the opacity of line: 0~1
