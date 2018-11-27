@@ -1038,23 +1038,7 @@ vendors:
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.3/Valine.min.js
   valine:
 
-  live2d:
-  enable: true
-  scriptFrom: local
-  pluginRootPath: live2dw/
-  pluginJsPath: lib/
-  pluginModelPath: assets/
-  tagMode: false
-  log: false
-  model:
-    use: live2d-widget-model-tororo
-  display:
-    position: right
-    width: 150
-    height: 300
-  mobile:
-    show: true
-
+    
 # Assets
 css: css
 js: js
