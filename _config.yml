@@ -55,7 +55,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: false
 
 footer:
   # Specify the date when the site was setup.
@@ -175,7 +175,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/PinBoLei || github
-  简书: https://www.jianshu.com/u/9c12f89705ca || book
+  简书: https://www.jianshu.com/u/9c12f89705ca || heartbeat
   csdn: https://blog.csdn.net/pinbolei || book
   E-Mail: mailto:hiliusir@163.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
@@ -301,6 +301,11 @@ post_meta:
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
+
 symbols_count_time:
   separated_meta: true
   item_text_post: true
