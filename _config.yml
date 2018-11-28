@@ -55,7 +55,7 @@ favicon:
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link, and install hexo-generator-feed: `npm install hexo-generator-feed --save`.
 # Set rss to specific value if you have burned your feed already.
-rss: false
+rss: /atom.xml
 
 footer:
   # Specify the date when the site was setup.
@@ -538,7 +538,7 @@ valine:
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: ヾﾉ≧∀≦)o来啦，老弟~ # comment box placeholder
-  avatar: mm # gravatar style
+  avatar: robohash # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
   visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
