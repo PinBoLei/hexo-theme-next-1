@@ -301,10 +301,6 @@ post_meta:
 
 # Post wordcount display settings
 # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-post_wordcount:
-  item_text: true
-  wordcount: true
-  min2read: true
 
 symbols_count_time:
   separated_meta: true
