@@ -2,19 +2,100 @@
 // 主页文章添加阴影效果
 
 // .post {
-//    margin-top: 0px;
-//    margin-bottom: 60px;
-//    padding: 25px;
-//    -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
-//    -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+//   margin-top: 0px;
+//   margin-bottom: 60px;
+//   padding: 25px;
+//   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+//   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
 // }
 
 // 添加背景图
 body{
-    background: rgba(238,238,238,0.7);
-    // background:url(/images/bg3.jpg);
-    // background-size:cover;
-    // background-repeat:no-repeat;
-    // background-attachment:fixed;
-    // background-position:center;
+  background: rgba(238,238,238,0.7);
+  // background-color: #315481;
+  // background-image: linear-gradient(to bottom, #315481, #918e82 100%);
+  // background-attachment: fixed;
+
+  // background:url(/images/bg3.jpg);
+  // background-size:cover;
+  // background-repeat:no-repeat;
+  // background-attachment:fixed;
+  // background-position:center;
+}
+
+// 图标颜色
+.header-inner{
+  // 主页
+  .fa-home {
+    color: #53a3e8;
+  }
+  .menu-item-home:hover .fa-home{
+    color: #4680da;
+  }
+  // 关于
+  .fa-user {
+    color: #ff6633;
+  }
+  .menu-item-about:hover .fa-user{
+    color: #ff3300;
+  }
+  // 标签
+  .fa-tags {
+    color: #2d8600;
+  }
+  .menu-item-tags:hover .fa-tags{
+    color: #339900;
+  }
+  // 分类
+  .fa-th {
+    color: #6666ff;
+  }
+  .menu-item-categories:hover .fa-th{
+    color: #3939ff;
+  }
+  // 归档
+  .fa-archive {
+    color: #ef302e;  
+  }
+  .menu-item-archives:hover .fa-archive{
+    color: #ff3333;  
+  }
+  // 搜索
+  .fa-search {
+    color: #6699cc;
+  }
+  .menu-item-search:hover .fa-search{
+    color: #4986c2;
+  }
+}
+
+.sidebar{
+  // github
+  .fa-github {
+    color: #1b1b1c  
+  }
+  .links-of-author-item:hover .fa-github {
+  color: #000000;  
+  }
+  // CSDN
+  .fa-book {
+    color: #556B2F;// #9966cc;  
+  }
+  .links-of-author-item:hover .fa-book {
+  color: #6e8a3d;// #9933cc;  
+  }
+  // 简书
+  .fa-heartbeat {
+    color: #ff3333; 
+  }
+  .links-of-author-item:hover .fa-heartbeat {
+  color: #ff1700;  
+  }
+  // E-Mail
+  .fa-envelope {
+    color: #6699ff;  
+  }
+  .links-of-author-item:hover .fa-envelope {
+  color: #397bff;  
+  }
 }
